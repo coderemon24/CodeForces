@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	var t int
-	fmt.Scanf("%d", &t)
+	fmt.Scan(&t)
 
 	for i := 0; i < t; i++ {
 		var n int
-		fmt.Scanf("%d", &n)
+		fmt.Scan(&n)
 		fmt.Println(n - 1)
 	}
 }
